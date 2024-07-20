@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Eyzbn9KgN+7nN3Drmc7ymxgL+7A8FqejuQyOrUbUUSZ03H8DVV34OSfrusog2Lde+r2SXhr3zRQLP1N1pTW7rA==",
+  "success": true,
+  "projectFilePath": "E:\\.netProjects\\@BeatBox\\BeatBox.Modles\\BeatBox.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

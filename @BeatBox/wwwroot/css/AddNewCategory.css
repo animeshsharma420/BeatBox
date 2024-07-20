@@ -1,0 +1,16 @@
+﻿div {
+    margin-bottom: 10px;
+    margin-top:50px;
+    margin-right:60px;
+
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+button{
+    margin-left:150px;
+}
+

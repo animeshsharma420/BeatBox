@@ -1,0 +1,81 @@
+﻿@model Song
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="~/css/mycsstheme.css" rel="stylesheet" />
+    <link href="~/css/AddNewCategory.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" />
+</head>
+
+<body>
+    <header class="text-center">
+        <h6>Beat Box</h6>
+        <h4>Delete Category</h4>
+    </header>
+    <form method="post">
+        @*<div asp-validation-summary="ModelOnly"></div>*@
+
+        <div class="text-center">
+
+            <label asp-for="Tittle"></label>
+            <input asp-for="Tittle" disabled type="text" />
+
+            <br />
+            <br />
+            <label asp-for="SongFilepath"></label>
+            <input asp-for="SongFilepath" disabled type="text" />
+
+
+            <br />
+            <br />
+
+            <label asp-for="Released"></label>
+            <input asp-for="Released" disabled type="text" />
+            <br />
+            <br />
+            <label asp-for="Language"></label>
+            <input asp-for="Language" disabled type="text" />
+            <br />
+            <br />
+            <label asp-for="SongComposer"></label>
+            <input asp-for="SongComposer" disabled type="text" />
+            <br />
+            <br />
+            <label asp-for="SongSinger"></label>
+            <input asp-for="SongSinger" disabled type="text" />
+            <br />
+            <br />
+            <label asp-for="SongCast"></label>
+            <input asp-for="SongCast" disabled type="text" />
+            <br />
+            <br />
+            <label asp-for="SongLyrics"></label>
+            <input asp-for="SongLyrics" disabled type="text" />
+            <br />
+            <br />
+            <label asp-for="ThumbNail"></label>
+            <input asp-for="ThumbNail" disabled type="text" />
+            <br />
+            <br />
+            <button type="submit" class="btn btn-outline-primary " style="margin: 0 670px ">Delete</button>
+
+            <br> <br />
+            <a href="@Url.Action("Songs","Song")" class="btn btn-outline-primary " style="margin: 0 690px; ">
+                <span class="icon ">
+
+                    <i class="" aria-hidden="true"></i>
+                </span>
+                <span class="item">Back</span>
+            </a>
+
+
+        </div>
+    </form>
+</body>
+
+</html>
+

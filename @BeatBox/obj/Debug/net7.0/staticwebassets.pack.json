@@ -1,0 +1,449 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\@BeatBox.bundle.scp.css",
+      "PackagePath": "staticwebassets\\@BeatBox.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\20c91a23-0852-4df7-9794-30f6b49d6fbd-WIN_20220224_19_16_07_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\20c91a23-0852-4df7-9794-30f6b49d6fbd-WIN_20220224_19_16_07_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\38e2e928-1c2b-46b4-9f60-7e79bd3d7126-WIN_20220224_19_16_07_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\38e2e928-1c2b-46b4-9f60-7e79bd3d7126-WIN_20220224_19_16_07_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\43cc0def-e754-4cb2-b333-13a8783fe5ef-SadThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\43cc0def-e754-4cb2-b333-13a8783fe5ef-SadThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\49183e60-d5cd-42f8-9405-0779bffc168f-SadThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\49183e60-d5cd-42f8-9405-0779bffc168f-SadThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\4e4d4467-46e0-444e-998b-09fb16ba0dce-WIN_20220224_19_16_07_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\4e4d4467-46e0-444e-998b-09fb16ba0dce-WIN_20220224_19_16_07_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\5a51fb1d-8357-428d-a42d-2fb8fb52a194-SadThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\5a51fb1d-8357-428d-a42d-2fb8fb52a194-SadThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\5a5e7bb9-46a2-46a3-a58e-dd0927cf690d-fortune of time.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\5a5e7bb9-46a2-46a3-a58e-dd0927cf690d-fortune of time.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\7cc74c76-4f38-48e5-aa06-e973095e8a3d-RomanticThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\7cc74c76-4f38-48e5-aa06-e973095e8a3d-RomanticThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\88ed8646-e955-4de3-8f09-89e5509d7651-RomanticThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\88ed8646-e955-4de3-8f09-89e5509d7651-RomanticThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\9b3ddd1e-ef44-4632-9af5-427cd909db0c-SadThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\9b3ddd1e-ef44-4632-9af5-427cd909db0c-SadThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\b203e132-4857-4abc-ad87-65d658a434bc-SadThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\b203e132-4857-4abc-ad87-65d658a434bc-SadThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\be8f2852-95c1-44c8-a27d-b6a1db313094-SadThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\be8f2852-95c1-44c8-a27d-b6a1db313094-SadThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\d11a3c14-8a28-4eb7-9614-671825c37784-SadThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\d11a3c14-8a28-4eb7-9614-671825c37784-SadThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\e38fb3e9-e531-468e-90a8-da1b21f0a882-SadThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\e38fb3e9-e531-468e-90a8-da1b21f0a882-SadThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\category\\f799cc6b-1aef-442a-b248-ae3bcd634fab-RomanticThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\category\\f799cc6b-1aef-442a-b248-ae3bcd634fab-RomanticThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\3ac882c2-89e2-4f03-a8c3-29a22d368dfa-WIN_20220224_19_16_07_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\3ac882c2-89e2-4f03-a8c3-29a22d368dfa-WIN_20220224_19_16_07_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\3ba48b00-ab13-44bb-8aeb-0a2ca0f622d0-SadThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\3ba48b00-ab13-44bb-8aeb-0a2ca0f622d0-SadThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\441fb21c-3419-46ea-a1f1-e2c5c94c6f50-WIN_20220224_19_19_46_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\441fb21c-3419-46ea-a1f1-e2c5c94c6f50-WIN_20220224_19_19_46_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\6eb4c1eb-0cba-4945-8781-de24dbc3de99-SadThumbNail.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\6eb4c1eb-0cba-4945-8781-de24dbc3de99-SadThumbNail.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\77e1601d-4576-4530-896f-32c1d8f49cb6-WIN_20220224_19_16_07_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\77e1601d-4576-4530-896f-32c1d8f49cb6-WIN_20220224_19_16_07_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\7e49896c-1796-49cf-aa46-e6e79c787d3f-WIN_20220224_19_16_20_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\7e49896c-1796-49cf-aa46-e6e79c787d3f-WIN_20220224_19_16_20_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\80e6b401-66a1-45f7-959f-3d0c1d1ab240-WIN_20220224_19_16_07_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\80e6b401-66a1-45f7-959f-3d0c1d1ab240-WIN_20220224_19_16_07_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\8255ca37-d52f-40ae-8129-2aa0a3284c36-WIN_20220224_19_19_46_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\8255ca37-d52f-40ae-8129-2aa0a3284c36-WIN_20220224_19_19_46_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\9f5a3fa9-7fd0-44e6-b5ad-31752523e8d4-WIN_20220224_19_16_20_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\9f5a3fa9-7fd0-44e6-b5ad-31752523e8d4-WIN_20220224_19_16_20_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\ad88bb65-a183-4332-9e44-12a461c2c9a6-WIN_20220224_19_16_07_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\ad88bb65-a183-4332-9e44-12a461c2c9a6-WIN_20220224_19_16_07_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\bd7d3c01-d1ed-4fa5-ae5e-4fec0bbde0d6-Kaalki-2828.AD.2024.V1.1080p.HDTS.Hindi.CLEAN.x264.Vegamovies.to.mkv_snapshot_00.00.02_[2024.06.29_16.16.10].jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\bd7d3c01-d1ed-4fa5-ae5e-4fec0bbde0d6-Kaalki-2828.AD.2024.V1.1080p.HDTS.Hindi.CLEAN.x264.Vegamovies.to.mkv_snapshot_00.00.02_[2024.06.29_16.16.10].jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\df99bc73-83b7-444e-af97-d49927264fdb-WIN_20220224_19_19_46_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\df99bc73-83b7-444e-af97-d49927264fdb-WIN_20220224_19_19_46_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\ed7913dd-cdfb-49a1-8f1e-d950d3f497f0-WIN_20220224_19_19_51_Pro.jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\ed7913dd-cdfb-49a1-8f1e-d950d3f497f0-WIN_20220224_19_19_51_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Image\\song\\f645e234-769b-418d-a390-559f3769964f-Kaalki-2828.AD.2024.V1.1080p.HDTS.Hindi.CLEAN.x264.Vegamovies.to.mkv_snapshot_00.00.02_[2024.06.29_16.16.10].jpg",
+      "PackagePath": "staticwebassets\\Image\\song\\f645e234-769b-418d-a390-559f3769964f-Kaalki-2828.AD.2024.V1.1080p.HDTS.Hindi.CLEAN.x264.Vegamovies.to.mkv_snapshot_00.00.02_[2024.06.29_16.16.10].jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\2eb79b8d-608a-4564-af5c-ef79689dc830-Sia Unstoppable Instrumental .mp3",
+      "PackagePath": "staticwebassets\\Songs\\2eb79b8d-608a-4564-af5c-ef79689dc830-Sia Unstoppable Instrumental .mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\5c5f6605-59d3-49c6-a1d2-7bd514b8a3f7-Sia Unstoppable Instrumental .mp3",
+      "PackagePath": "staticwebassets\\Songs\\5c5f6605-59d3-49c6-a1d2-7bd514b8a3f7-Sia Unstoppable Instrumental .mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\67cd8e21-4a67-447f-a2ab-5fe4532c8d1e-Born To Do.mp3",
+      "PackagePath": "staticwebassets\\Songs\\67cd8e21-4a67-447f-a2ab-5fe4532c8d1e-Born To Do.mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\7daed597-c032-4fd9-aee4-d43dd0d863f6-WIN_20220224_19_19_51_Pro.jpg",
+      "PackagePath": "staticwebassets\\Songs\\7daed597-c032-4fd9-aee4-d43dd0d863f6-WIN_20220224_19_19_51_Pro.jpg"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\87a94e2a-7ab4-4627-be0c-0c0de2cd2d92-Monster at Imagine dragon.mp3",
+      "PackagePath": "staticwebassets\\Songs\\87a94e2a-7ab4-4627-be0c-0c0de2cd2d92-Monster at Imagine dragon.mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\892971d2-8fd4-4519-bfe8-e2d4986f6494-Beggin .mp3",
+      "PackagePath": "staticwebassets\\Songs\\892971d2-8fd4-4519-bfe8-e2d4986f6494-Beggin .mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\8941d7b6-a3dc-4f70-902c-881ed1cf59ee-Born To Do.mp3",
+      "PackagePath": "staticwebassets\\Songs\\8941d7b6-a3dc-4f70-902c-881ed1cf59ee-Born To Do.mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\ad6461d2-311e-4da3-8c07-8c33920ebf04-Lil Nas X Industry Baby but without Jack Harlow.mp3",
+      "PackagePath": "staticwebassets\\Songs\\ad6461d2-311e-4da3-8c07-8c33920ebf04-Lil Nas X Industry Baby but without Jack Harlow.mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\b1eda7f8-fe30-412b-973d-c843dabe220a-Sia Unstoppable Instrumental .mp3",
+      "PackagePath": "staticwebassets\\Songs\\b1eda7f8-fe30-412b-973d-c843dabe220a-Sia Unstoppable Instrumental .mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\cf38fe8c-9641-48c6-a8b6-629fe0cdf134-Lil Nas X Industry Baby but without Jack Harlow.mp3",
+      "PackagePath": "staticwebassets\\Songs\\cf38fe8c-9641-48c6-a8b6-629fe0cdf134-Lil Nas X Industry Baby but without Jack Harlow.mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\e2215e97-a54c-4d19-bc71-bd01e7ee6caa-Beggin .mp3",
+      "PackagePath": "staticwebassets\\Songs\\e2215e97-a54c-4d19-bc71-bd01e7ee6caa-Beggin .mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\Songs\\f53e1127-318a-4192-998a-a5b8f534293c-Born To Do.mp3",
+      "PackagePath": "staticwebassets\\Songs\\f53e1127-318a-4192-998a-a5b8f534293c-Born To Do.mp3"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\css\\AddNewCategory.css",
+      "PackagePath": "staticwebassets\\css\\AddNewCategory.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\css\\Admin.css",
+      "PackagePath": "staticwebassets\\css\\Admin.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\css\\mycsstheme.css",
+      "PackagePath": "staticwebassets\\css\\mycsstheme.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\js\\Admin.js",
+      "PackagePath": "staticwebassets\\js\\Admin.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\.netProjects\\@BeatBox\\@BeatBox\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.@BeatBox.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.@BeatBox.props",
+      "PackagePath": "build\\@BeatBox.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.@BeatBox.props",
+      "PackagePath": "buildMultiTargeting\\@BeatBox.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.@BeatBox.props",
+      "PackagePath": "buildTransitive\\@BeatBox.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

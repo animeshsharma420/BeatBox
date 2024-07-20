@@ -1,0 +1,109 @@
+﻿@model IEnumerable<BeatBox.Models.Song>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BeatBox</title>
+    <link href="~/css/mycsstheme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" />
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const audioElements = document.querySelectorAll("audio");
+
+            audioElements.forEach(audio => {
+                audio.addEventListener("play", () => {
+                    audioElements.forEach(otherAudio => {
+                        if (otherAudio !== audio) {
+                            otherAudio.pause();
+                            otherAudio.currentTime = 0;
+                        }
+                    });
+                });
+            });
+        });
+       
+    </script>
+</head>
+<body>
+    <header>
+        <h2 class="text-center">BeatBox</h2>
+    </header>
+
+    <a href="@Url.Action("AddNewSong", "Song")" class="btn btn-outline-primary" style="margin-left:600px">
+        <span class="icon">
+            <i class="fa fa-list-alt" aria-hidden="true"></i>
+        </span>
+        <span class="item">Add New Song</span>
+    </a>
+    <br />
+    <br />
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Duration</th>
+                <th scope="col">Language</th>
+                <th scope="col">Release</th>
+                <th scope="col">Song Composer</th>
+                <th scope="col">Song Singer</th>
+                <th scope="col">Song Cast</th>
+                <th scope="col">Song Lyrics</th>
+                <th scope="col">Song Thumbnail</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+                console.log()
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="table-active">
+                    <td>@item.Tittle</td>
+                    <td>
+                        <!--id="audio-"item.Id onplay="playaudio()"-->
+                        <audio  controls>
+                            <source src="~/Songs/@item.SongFilepath" type="audio/mp3" />
+                           
+                        </audio>
+                    </td>
+                    <td>@item.Language</td>
+                    <td>@item.Released.ToString("d")</td>
+                    <td>@item.SongComposer</td>
+                    <td>@item.SongSinger</td>
+                    <td>@item.SongCast</td>
+                    <td>@item.SongLyrics</td>
+                    <td>
+                        <img src="~/Image/song/@item.ThumbNail" alt="Song Thumbnail" width="70" height="60" />
+                    </td>
+                    <td>
+                        <a asp-controller="Song" asp-action="SongEdit" asp-route-id="@item.Id" class="btn btn-outline-warning">
+                            <span class="icon">
+                                <i class="fas fa-edit"></i>
+                            </span>
+                            <span class="item">Edit</span>
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-controller="Song" asp-action="SongDelete" asp-route-id="@item.Id" class="btn btn-outline-danger">
+                            <span class="icon">
+                                <i class="fas fa-trash"></i>
+                            </span>
+                            <span class="item">Delete</span>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="@Url.Action("AdminPanel", "Admin")" class="btn btn-outline-primary" style="margin-left:650px">
+        <span class="icon">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </span>
+        <span class="item">Back</span>
+    </a>
+</body>
+</html>

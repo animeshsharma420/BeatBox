@@ -1,0 +1,99 @@
+﻿@using _BeatBox.Data;
+@model SongModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="~/css/mycsstheme.css" rel="stylesheet" />
+    <link href="~/css/AddNewCategory.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" />
+   
+   
+   
+</head>
+
+<body>
+    
+    
+   
+    <form method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="text-center">
+            <label asp-for="Tittle"></label>
+            <input asp-for="Tittle" type="text" />
+            <br />
+            <span asp-validation-for="Tittle" class="text-danger"></span>
+            <br />
+            <br />
+            <label asp-for="SongFilePath"></label>
+            <input asp-for="SongFilePath" />
+            <br />
+            <span asp-validation-for="SongFilePath" class="text-danger"></span>
+            <br />
+            <br />
+            <label asp-for="Released"></label>
+            <input asp-for="Released"  />
+            <br />
+            <span asp-validation-for="Released" class="text-danger"></span>
+            <br />
+            <br />
+            
+            <label asp-for="Language"></label>
+            <input asp-for="Language" />
+            <br />
+            <span asp-validation-for="Language" class="text-danger"></span>
+            <br />
+            <br />
+            
+            <label asp-for="SongComposer"></label>
+            <input asp-for="SongComposer" />
+            <br />
+            <span asp-validation-for="SongComposer" class="text-danger"></span>
+            <br />
+            <br />
+            <label asp-for="SongSinger"></label>
+            <input asp-for="SongSinger" />
+            <br />
+            <span asp-validation-for="SongSinger" class="text-danger"></span>
+            <br />
+            <br />
+            <label asp-for="SongCast"></label>
+            <input asp-for="SongCast" />
+            <br />
+            <span asp-validation-for="SongCast" class="text-danger"></span>
+            <br />
+            
+            <label asp-for="Lyrics"></label>
+            <input asp-for="Lyrics" />
+            <br />
+            <span asp-validation-for="Lyrics" class="text-danger"></span>
+            <br />
+            <br /><br />
+            <label asp-for="ThumbNail"></label>
+            <input asp-for="ThumbNail" />
+            <br />
+            <span asp-validation-for="ThumbNail" class="text-danger"></span>
+            <br />
+            <br />
+            <button type="submit" class="btn btn-outline-primary" style="">Create</button>
+            <a href="@Url.Action("Songs","Song")" class="btn btn-outline-primary ">
+                <span class="icon ">
+                    <i class="" aria-hidden="true"></i>
+                </span>
+                <span class="item">Back</span>
+            </a>
+
+
+        </div>
+    </form>
+</body>
+
+</html>
+@section scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

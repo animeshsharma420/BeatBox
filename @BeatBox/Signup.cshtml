@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Signup";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="~/css/styles.css"> <!-- Ensure this path matches your CSS file location -->
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Signup</h2>
+        <form method="post" action="@Url.Action("Signup", "Account")">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="Username" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="Password" class="form-control" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Signup</button>
+            <div>
+                <a href="@Url.Action("Login", "Account")">Already have an account? Login here.</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

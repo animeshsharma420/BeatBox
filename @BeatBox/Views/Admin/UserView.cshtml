@@ -1,0 +1,21 @@
+﻿@model _BeatBox.Models.UserViewModel
+
+@{
+    ViewData["Title"] = "View User";
+}
+
+<h2>@Model.FirstName @Model.LastName</h2>
+
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.Email</dd>
+
+        <dt class="col-sm-2">Roles</dt>
+        <dd class="col-sm-10">@string.Join(", ", Model.Roles)</dd>
+    </dl>
+</div>
+
+<a  asp-controller="Admin" asp-action="AdminPanel" class="btn btn-primary">Back to List</a>
+

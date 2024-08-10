@@ -1,22 +1,53 @@
-﻿using BeatBox.Models;
+﻿using _BeatBox.DataAccess.Data;
+using _BeatBox.ViewModels;
+using BeatBox.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace _BeatBox.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _db;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public HomeController(ApplicationDbContext db, IWebHostEnvironment webHostEnvironment)
         {
-            _logger = logger;
+            _db = db;
+            _webHostEnvironment = webHostEnvironment;
         }
+        public async Task<IActionResult> Index(string searchTerm = null)
+        {
+           
+                IQueryable<Song> query = _db.Songs;
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+                if (!string.IsNullOrWhiteSpace(searchTerm))
+                {
+                    searchTerm = searchTerm.Trim();
+                    query = query.Where(song =>
+                        song.Tittle.Contains(searchTerm) ||
+                        song.SongSinger.Contains(searchTerm) ||
+                        song.SongComposer.Contains(searchTerm) ||
+                        song.Language.Contains(searchTerm) ||
+                        song.SongCast.Contains(searchTerm) ||
+                        song.SongLyrics.Contains(searchTerm));
+                }
+
+                List<Song> recentSongs = await query
+                    .OrderByDescending(song => song.Released)
+                    .Take(5)
+                    .ToListAsync();
+
+                var viewModel = new SongListViewModel
+                {
+                    SearchTerm = searchTerm,
+                    Songs = recentSongs
+                };
+
+                return View(viewModel);
+         }
+
 
         public IActionResult Privacy()
         {

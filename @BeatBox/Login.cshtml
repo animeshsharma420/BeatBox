@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/styles.css"> <!-- Ensure this path matches your CSS file location -->
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Login</h2>
+        <form method="post" action="@Url.Action("Login", "Account")">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="Username" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="Password" class="form-control" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <div>
+                <a href="@Url.Action("Signup", "Account")">Don't have an account? Sign up here.</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

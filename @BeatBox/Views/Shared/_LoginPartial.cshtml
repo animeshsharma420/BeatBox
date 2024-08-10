@@ -1,0 +1,46 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using _BeatBox.Areas.Identity.Data
+
+@inject SignInManager<Users> SignInManager
+@inject UserManager<Users> UserManager
+
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+        if (User.IsInRole("admin"))
+        {
+           
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" herf="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Admin
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index">Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Logout">Logout</a></li>
+                </ul>
+            </li>
+        }
+        else if (User.IsInRole("client"))
+        {
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " herf="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Client
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index">Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Logout">Logout</a></li>
+                </ul>
+            </li>
+        }
+
+
+    
+}
+else
+{
+   
+}
+</ul>

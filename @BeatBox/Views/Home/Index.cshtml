@@ -2,7 +2,176 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@model _BeatBox.ViewModels.SongListViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singers List</title>
+    <link href="~/css/mycsstheme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" />
+    <style>
+        .audio-controls {
+            display: none;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+            .audio-controls audio {
+                width: 100%;
+                max-width: 600px;
+                outline: none;
+            }
+
+        .card {
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+            height: 100%;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+            }
+
+        .thumbnail {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <!-- Profile Section -->
+        <div class="profile" style="display: inline-block">
+            <img src="data:image/png;base64,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" alt="profile_picture" style="border-radius: 50%; width: 100px; height: 100px; vertical-align: middle;">
+
+            <form method="get" action="@Url.Action("Index", "Home")" class="mb-4" style="display: inline-block; margin-left: 10px;">
+                <div class="input-group">
+                    <input type="text" name="searchTerm" class="form-control" placeholder="Search by title, singer, composer, etc." value="@Model.SearchTerm" style="display: inline; width: 200px; flex-end;" />
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit" style="display: inline;">Search</button>
+                        
+                       
+
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+        <!-- Audio Player Section -->
+        <div class="audio-controls">
+            
+            <div class="audio-controls" id="audioControls">
+                <audio id="audioPlayer" controls>
+                    <source id="audioSource" src="" type="audio/mpeg">
+                </audio>
+            </div>
+            
+     
+        </div>
+
+        <!-- Songs Section -->
+        <div class="row">
+            @if (Model.Songs != null && Model.Songs.Any())
+            {
+                foreach (var song in Model.Songs)
+                {
+
+                 <div class="col-lg-3 col-sm-6 mb-4">
+
+                    <div class="card" onclick="togglePlay('@Url.Content($"~/Songs/{song.SongFilepath}")')">
+
+                        
+                       
+                        <img src="~/Image/song/@song.ThumbNail" class="card-img-top thumbnail" alt="Song Thumbnail" />
+                        <div class="card-body">
+                            <h5 class="card-title">@song.Tittle</h5>
+                            <p class="card-text">@song.SongSinger</p>
+                            <p class="card-text"><small class="text-muted">Released on: @song.Released.ToString("MMMM dd, yyyy")</small></p>
+
+                                @* <input type="button" value="sound" onclick="playMusic()" /> *@
+                        </div>
+                    </div>
+                 </div>
+                }
+            }
+            
+           
+        </div>
+
+        <footer>
+            <div class="music-bar" id="footerMusicBar" style="display: none;">
+                <div class="song-info">
+                    <span class="song-title" id="songTitle"></span> - <span class="song-singer" id="songSinger"></span>
+                </div>
+                <audio id="footerAudioPlayer" controls>
+                    <source id="footerAudioSource" src="" type="audio/mpeg">
+                </audio>
+            </div>
+        </footer>
+
+        <!-- JavaScript Section -->
+        <script>
+            var isPlaying = false;
+            const audioPlayer = document.getElementById('audioPlayer');
+            const footerAudioPlayer = document.getElementById('footerAudioPlayer');
+            console.log("audioplayer=", audioPlayer);
+            const audioSource = document.getElementById('audioSource');
+            const footerAudioSource = document.getElementById('footerAudioSource');
+            console.log("audioSource", audioSource);
+            const audioControls = document.getElementById('audioControls');
+            console.log("audioControls", audioControls);
+
+            
+            
+
+            let currentAudioUrl = "";
+
+            
+            function togglePlay(audioUrl) {
+                
+                console.log("audioControls", audioUrl);
+                // Check if elements are found
+                if (!audioPlayer || !audioSource || !audioControls) {
+                    console.error('Audio elements not found.');
+                    return;
+                }
+                if (currentAudioUrl === audioUrl && !audioPlayer.paused) {
+                    // If the same song is clicked and it's currently playing, pause it
+                    audioPlayer.pause();
+                    
+                } else 
+                {
+                    // Otherwise, play the new song
+                    audioSource.src = audioUrl;
+                    audioPlayer.load(); // Reload the audio element with the new source
+                    audioPlayer.play();
+                    audioControls.style.display = 'block';
+                }
+
+                
+                currentAudioUrl = audioUrl;
+                // Handle autoplay policy by checking play promise
+                // audioPlayer.play();
+
+                // audioPlayer.onplaying = function () {
+                //     isPlaying = true;
+                // };
+                // audioPlayer.onpause = function () {
+                //     isPlaying = false;
+                // };
+            }
+           
+        </script>
+
+
+</body>
+
+</html>
